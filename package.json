@@ -1,0 +1,34 @@
+{
+  "name": "hyper-sick",
+  "version": "0.0.1",
+  "description": "Hyper theme with sick colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablopunk/hyper-sick.git"
+  },
+  "keywords": [
+    "hyper",
+    "sick",
+    "colors",
+    "theme",
+    "pablopunk",
+    "palette",
+    "pale",
+    "night",
+    "dark",
+    "pastel"
+  ],
+  "author": "Pablo Varela (https://pablo.life)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablopunk/hyper-sick/issues"
+  },
+  "homepage": "https://github.com/pablopunk/hyper-sick#readme",
+  "dependencies": {
+    "sick-colors": "*"
+  }
+}
