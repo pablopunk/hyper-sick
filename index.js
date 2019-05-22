@@ -1,6 +1,6 @@
 let colors = require('sick-colors')
 
-const colors = {
+colors = {
   ...colors,
   lightBlack: colors.black,
   lightRed: colors.red,
