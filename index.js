@@ -12,7 +12,7 @@ colors = {
   lightWhite: colors.foreground,
 }
 
-exports.decorateConfig = config => ({
+module.exports.decorateConfig = config => ({
   ...config,
   backgroundColor: colors.background,
   foregroundColor: colors.foreground,
