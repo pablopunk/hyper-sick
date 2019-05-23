@@ -1,4 +1,4 @@
-# hyper-sick
+# hyper-sick ![npm](https://img.shields.io/npm/dt/hyper-sick.svg?style=social)
 
 [Sick colors](https://github.com/pablopunk/sick-colors) for [hyper terminal](https://hyper.is)
 
