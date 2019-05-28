@@ -1,16 +1,4 @@
-let colors = require('sick-colors')
-
-colors = {
-  ...colors,
-  lightBlack: colors.black,
-  lightRed: colors.red,
-  lightGreen: colors.green,
-  lightYellow: colors.yellow,
-  lightBlue: colors.blue,
-  lightMagenta: colors.magenta,
-  lightCyan: colors.cyan,
-  lightWhite: colors.foreground,
-}
+const colors = require('sick-colors')
 
 module.exports.decorateConfig = config => ({
   ...config,
