@@ -5,7 +5,7 @@ module.exports.decorateConfig = config => {
 
   return {
     ...config,
-    themeColors: {
+    colors: {
       ...themeColors,
       lightBlack: themeColors.black,
       ligthRed: themeColors.red,
