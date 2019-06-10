@@ -1,17 +1,21 @@
 const colors = require('sick-colors')
 
-module.exports.decorateConfig = config => ({
-  ...config,
-  colors: {
-    ...colors,
-    lightBlack: colors.black,
-    ligthRed: colors.red,
-    lightGreen: colors.green,
-    lightYellow: colors.yellow,
-    lightBlue: colors.blue,
-    lightMagenta: colors.magenta,
-    lightCyan: colors.cyan
-  },
-  backgroundColor: colors.background,
-  foregroundColor: colors.foreground
-})
+module.exports.decorateConfig = config => {
+  const themeColors = config.theme === 'light' ? colors.light : colors
+
+  return {
+    ...config,
+    themeColors: {
+      ...themeColors,
+      lightBlack: themeColors.black,
+      ligthRed: themeColors.red,
+      lightGreen: themeColors.green,
+      lightYellow: themeColors.yellow,
+      lightBlue: themeColors.blue,
+      lightMagenta: themeColors.magenta,
+      lightCyan: themeColors.cyan
+    },
+    backgroundColor: themeColors.background,
+    foregroundColor: themeColors.foreground
+  }
+}
