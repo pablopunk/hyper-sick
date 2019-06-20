@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/pablopunk/hyper-sick#readme",
   "dependencies": {
-    "sick-colors": "^2.1.3"
+    "sick-colors": "^3.0.2"
   }
 }
